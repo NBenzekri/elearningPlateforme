@@ -106,7 +106,17 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="main-nav">
-               
+                <ul class="nav navbar-nav navbar-nav-margin-left">
+                    <li class="dropdown active">
+                        <a href="index.html" >Acceuil </a>
+                    </li> 
+                    <li class="dropdown ">
+                        <a href="#cours" >Cours </a>
+                    </li> 
+                    <li class="dropdown active">
+                        <li><a href="website-contact.html">Contact</a></li>
+                    </li> 
+                </ul>
                 <div class="navbar-right">
                     <ul class="nav navbar-nav navbar-nav-bordered navbar-nav-margin-right">
                         <!-- user -->
@@ -123,7 +133,7 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
                         </li>
                         <!-- // END user -->
                     </ul>
-                    <a href="login.html" class="navbar-btn btn btn-primary">Log In</a>
+                    <a href="login.html" class="navbar-btn btn btn-primary">Logout</a>
                 </div>
             </div>
             <!-- /.navbar-collapse -->
@@ -135,13 +145,14 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
             <div class="v-center">
                 <div class="page-section overlay-bg-white-strong relative paper-shadow" data-z="1">
                     <h1 class="text-display-2 margin-v-0-15 display-inline-block">Cours e-learning</h1>
-                    <p class="text-subhead">le groupe des étudiants IeL souhaite a nos utilisateurs une bonne lecture</p>
+                    <p class="text-subhead">le groupe des étudiants IEL souhaite a nos utilisateurs une bonne lecture</p>
                     <a class="btn btn-green-500 btn-lg paper-shadow" data-hover-z="2" data-animated data-toggle="modal" href="#modal-overlay-signup">S'inscrire </a>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container">
+
+    <div class="container" id="cours">
         <div class="page-section-heading">
             <h2 class="text-display-1">Les cours</h2>
             <p class="lead text-muted">savoir plus sur tous les cours que nous offrons</p>
@@ -151,14 +162,14 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
                 <div class="media-left padding-none">
                     <div class="bg-green-300 text-white">
                         <div class="panel-body">
-                            <i class="fa fa-film fa-2x fa-fw"></i>
+                            <i class="fa fa-list-ul fa-2x fa-fw"></i>
                         </div>
                     </div>
                 </div>
                 <div class="media-body">
                     <div class="panel panel-default">
                         <div class="panel-body">
-                            <div class="text-headline" style="font-size:22px;"> KANBAN</div>
+                            <div class="text-headline" style="font-size:22px;"><a href="website-course.html" style="color: blue;">KANBAN</a> </div>
                             <p>À l'instar de la méthode du point de commande ou du lean management, la méthode du Kanban est une méthode de gestion des stocks, et plus particulièrement une méthode de juste-à-temps par étiquette.</p>
                         </div>
                     </div>
@@ -175,7 +186,7 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
                 <div class="media-body">
                     <div class="panel panel-default">
                         <div class="panel-body">
-                            <div class="text-headline" style="font-size:20px;">Control Qualité et inspection</div>
+                            <div class="text-headline" style="font-size:20px;"><a href="website-course.html" style="color: blue;">Control Qualité et inspection</a> </div>
                             <p>Le contrôle est une opération destinée à déterminer, avec des moyens appropriés, si le contrôlé est conforme ou non à ses spécifications ou exigences préétablies et incluant une décision d'acceptation.</p>
                         </div>
                     </div>
@@ -192,7 +203,7 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
                 <div class="media-body">
                     <div class="panel panel-default">
                         <div class="panel-body">
-                            <div class="text-headline" style="font-size:22px;">ISO 9001:2008</div>
+                            <div class="text-headline" style="font-size:22px;"><a href="website-course.html" style="color: blue;">ISO 9001:2008</a></div>
                             <p>L'ISO 9001:2008 spécifie les exigences relatives au système de management de la qualité qui sont génériques et prévues pour s'appliquer à tout organisme, quels que soient son type, sa taille et le produit fourni.</p>
                         </div>
                     </div>
@@ -209,7 +220,7 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
                 <div class="media-body">
                     <div class="panel panel-default">
                         <div class="panel-body">
-                            <div class="text-headline" style="font-size:22px; ">Total Quality management</div>
+                            <div class="text-headline" style="font-size:22px; "><a href="website-course.html" style="color: blue;">Total Quality management</a></div>
                             <p>La qualité totale est une démarche de gestion de la qualité dont l'objectif est l'obtention d'une très large mobilisation et implication de toute l'entreprise pour parvenir à une qualité parfaite en réduisant au minimum les gaspillages. </p>
                         </div>
                     </div>
@@ -226,7 +237,7 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
                 <div class="media-body">
                     <div class="panel panel-default">
                         <div class="panel-body">
-                            <div class="text-headline" style="font-size:22px;">Toyota production system</div>
+                            <div class="text-headline" style="font-size:22px;"><a href="website-course.html" style="color: blue;">Toyota production system</a></div>
                             <p>Le système de production Toyota est un système socio-technique intégré, développé par le constructeur automobile japonais Toyota, qui comprend sa philosophie de gestion et ses pratiques</p>
                         </div>
                     </div>
@@ -243,7 +254,7 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
                 <div class="media-body">
                     <div class="panel panel-default">
                         <div class="panel-body">
-                            <div class="text-headline" style="font-size:22px;">Just-In-Time Manufacturing</div>
+                            <div class="text-headline" style="font-size:22px;"><a href="website-course.html" style="color: blue;">Just-In-Time Manufacturing</a></div>
                             <p>Le juste-à-temps1 est une méthode d'organisation et de gestion de la production, propre au secteur de l'industrie, qui consiste à minimiser les stocks et les en-cours de fabrication.</p>
                         </div>
                     </div>
@@ -472,7 +483,7 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
                 <div class="page-section">
                     <h1 class="text-display-2 overlay-bg-white margin-v-0-15 inline-block">Feedback</h1>
                     <br/>
-                    <p class="lead text-overlay overlay-bg-white-strong inline-block">How others use E-learning to improve their skills</p>
+                    <p class="lead text-overlay overlay-bg-white-strong inline-block">Les remarques des étudiants : </p>
                 </div>
             </div>
         </div>
@@ -484,7 +495,7 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
                     <div class="testimonial">
                         <div class="panel panel-default">
                             <div class="panel-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam amet doloremque enim error id, inventore magni odio odit quo tenetur.</p>
+                                <p>***************************************<br>***************************************</p>
                             </div>
                         </div>
                         <div class="media v-middle">
@@ -493,7 +504,7 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
                             </div>
                             <div class="media-body">
                                 <p class="text-subhead margin-v-5-0">
-                                    <strong>Adrian D. <span class="text-muted">@ Mosaicpro Inc.</span></strong>
+                                    <strong>Nassim<span class="text-muted">@ ENSIAS</span></strong>
                                 </p>
                                 <p class="small">
                                     <span class="fa fa-fw fa-star text-yellow-800"></span>
@@ -510,7 +521,7 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
                     <div class="testimonial">
                         <div class="panel panel-default">
                             <div class="panel-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam amet doloremque enim error id, inventore magni odio odit quo tenetur.</p>
+                                <p>***************************************<br>***************************************</p>
                             </div>
                         </div>
                         <div class="media v-middle">
@@ -519,7 +530,7 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
                             </div>
                             <div class="media-body">
                                 <p class="text-subhead margin-v-5-0">
-                                    <strong>Adrian D. <span class="text-muted">@ Mosaicpro Inc.</span></strong>
+                                    <strong>Adil  <span class="text-muted">@ ENSIAS</span></strong>
                                 </p>
                                 <p class="small">
                                     <span class="fa fa-fw fa-star text-yellow-800"></span>
@@ -536,7 +547,7 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
                     <div class="testimonial">
                         <div class="panel panel-default">
                             <div class="panel-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam amet doloremque enim error id, inventore magni odio odit quo tenetur.</p>
+                                <p>***************************************<br>***************************************</p>
                             </div>
                         </div>
                         <div class="media v-middle">
@@ -545,7 +556,7 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
                             </div>
                             <div class="media-body">
                                 <p class="text-subhead margin-v-5-0">
-                                    <strong>Adrian D. <span class="text-muted">@ Mosaicpro Inc.</span></strong>
+                                    <strong>Youness <span class="text-muted">@ ENSIAS</span></strong>
                                 </p>
                                 <p class="small">
                                     <span class="fa fa-fw fa-star text-yellow-800"></span>
@@ -573,69 +584,11 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
                                 <ul class="wiz-progress">
                                     <li class="active">Plan &amp; Payment</li>
                                     <li>Account Setup</li>
-                                    <li>Personal Details</li>
+                                    
                                 </ul>
                             </div>
                             <form action="#" data-toggle="wizard" class="max-width-400 h-center">
-                                <fieldset class="step relative paper-shadow form-horizontal" data-z="2">
-                                    <div class="page-section-heading">
-                                        <h2 class="text-h3 margin-v-0">Payment</h2>
-                                        <h3 class="text-h4 margin-v-10 text-grey-400">Your plan is
-                                            <strong class="text-uppercase">learner</strong> for
-                                            <strong>&dollar;19.99/mo</strong>
-                                        </h3>
-                                        <a href="pricing.html">See pricing</a>
-                                    </div>
-                                    <hr/>
-                                    <div class="form-group">
-                                        <label for="credit-card" class="col-xs-4 control-label">Credit Card</label>
-                                        <div class="col-xs-8">
-                                            <div class="form-control-material">
-                                                <input type="text" class="form-control" id="credit-card" placeholder="**** **** **** 2422">
-                                                <label for="credit-card">Credit Card</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="card-expiration" class="col-xs-4 control-label">Expiration:</label>
-                                        <div class="col-xs-8">
-                                            <select id="card-expiration" data-toggle="select2">
-                                                <option value="1" selected>January</option>
-                                                <option value="2">February</option>
-                                                <option value="3">March</option>
-                                                <option value="4">April</option>
-                                                <option value="5">May</option>
-                                                <option value="6">June</option>
-                                                <option value="7">July</option>
-                                                <option value="8">August</option>
-                                                <option value="9">September</option>
-                                                <option value="10">October</option>
-                                                <option value="11">November</option>
-                                                <option value="12">December</option>
-                                            </select>
-                                            <select data-toggle="select2">
-                                                <option value="2015" selected>2015</option>
-                                                <option value="2016">2016</option>
-                                                <option value="2017">2017</option>
-                                                <option value="2018">2018</option>
-                                                <option value="2019">2019</option>
-                                                <option value="2020">2020</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="cvv" class="col-xs-4 control-label">CVV</label>
-                                        <div class="col-xs-8">
-                                            <div class="form-control-material">
-                                                <input type="email" class="form-control" id="cvv" placeholder="123">
-                                                <label for="cvv">CVV</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="text-right">
-                                        <button type="button" class="wiz-next btn btn-primary">Next</button>
-                                    </div>
-                                </fieldset>
+                                
                                 <fieldset class="step relative paper-shadow" data-z="2">
                                     <div class="page-section-heading">
                                         <h2 class="text-h3 margin-v-0">Create your account</h2>
